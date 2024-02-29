@@ -115,7 +115,6 @@ df.describe()
 data = df.drop(['Surname', 'Geography','Gender'], axis=1)
 
 ### Checking datasets after dropping string values data from dataset
-py
 data.head()
 ```
 
